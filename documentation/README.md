@@ -41,3 +41,5 @@ LARAVEL documentation can be found on the [Laravel website](https://laravel.com/
 
 LARAVEL UI repo can be found on the [Laravel UI GitHub](https://github.com/laravel/ui). 
 Note: For now, we will use Bootstrap as UI/UX.
+
+ELOQUENT UUID repo can be found on the [Your App Rocks](https://github.com/YourAppRocks/eloquent-uuid).
