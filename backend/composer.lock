@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a993688a4552c644071256b6b56c39a",
+    "content-hash": "9b29c6e0b7fefe9f6de7308abb7a23b2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3978,6 +3978,55 @@
                 "php"
             ],
             "time": "2020-06-15T23:49:30+00:00"
+        },
+        {
+            "name": "your-app-rocks/eloquent-uuid",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/YourAppRocks/eloquent-uuid.git",
+                "reference": "904b1cf966fed626d4b83251a10909ddbfcfead4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/YourAppRocks/eloquent-uuid/zipball/904b1cf966fed626d4b83251a10909ddbfcfead4",
+                "reference": "904b1cf966fed626d4b83251a10909ddbfcfead4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1",
+                "ramsey/uuid": "^3.9 || ^4.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.16",
+                "orchestra/testbench": "^3.5 || ^4.0 || ^5.0",
+                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "YourAppRocks\\EloquentUuid\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "João Roberto P. Borges",
+                    "email": "joaorobertopb@gmail.com"
+                }
+            ],
+            "description": "Adds support for UUID generation automatically for Models Eloquents.",
+            "homepage": "https://yourapp.rocks",
+            "keywords": [
+                "YourApp.Rocks",
+                "eloquent-uuid",
+                "universal unique id",
+                "uuid"
+            ],
+            "time": "2020-04-20T12:52:12+00:00"
         }
     ],
     "packages-dev": [
