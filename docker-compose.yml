@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  database_mysql_8:
+    container_name: database-mysql-8
+    image: mysql:8.0.29
+    restart: always
+    platform: linux/amd64
+    environment:
+      MYSQL_ROOT_PASSWORD: 'root'
+      MYSQL_DATABASE: larapetdb
+      MYSQL_PASSWORD: 'root'
+    ports:
+      - '3306:3306'
